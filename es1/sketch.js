@@ -32,12 +32,10 @@ function setup() {
 }
 
 function draw() {
-  if (mouseIsPressed) {
     translate(mouseX, mouseY);
     rotate(frameCount / FOTOGRAMMI_PER_GIRO);
     const lunghezza = LUNGHEZZA * (0.5 + 0.5 * sin(frameCount * VELOCITA_PULSAZIONE));
     line(0, 0, lunghezza, 0);
-  }
 }
 
 function windowResized() {
