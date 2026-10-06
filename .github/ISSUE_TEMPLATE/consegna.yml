@@ -1,0 +1,24 @@
+name: Consegna
+description: Segnalare la consegna di un'esercitazione o di una fase del progetto
+title: "Consegna: "
+labels: ["consegna"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Completare il titolo qui sopra con la cartella dell'attività, per esempio `Consegna: es1`.
+  - type: input
+    id: indirizzo
+    attributes:
+      label: Indirizzo del lavoro
+      description: L'indirizzo della cartella pubblicata, copiato dalla barra del browser.
+      placeholder: https://nomeutente.github.io/aa2627-ca-lavori/es1/
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: Note
+      description: Difficoltà incontrate, parti da rivedere, domande per la revisione.
+    validations:
+      required: false
