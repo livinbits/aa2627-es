@@ -1,5 +1,7 @@
 # Computer Art 2026/27: le esercitazioni
 
+Lavori pubblicati: https://livinbits.github.io/aa2627-es/
+
 Repository personale per le esercitazioni del corso di **Computer Art**, Accademia di Belle Arti di Frosinone.
 
 Le consegne, con obiettivi, vincoli e modalità di realizzazione, si trovano nella sezione [Attività](https://codestesie.it/aa2627/ca/attivita/) del sito del corso: sono quelle il riferimento, e vanno lette per intero prima di iniziare.
@@ -21,7 +23,7 @@ Le scorciatoie da tastiera indicate qui e più avanti sono quelle di Windows: su
 Una volta sola, all'inizio del corso. I primi cinque passaggi si fanno **sul sito di GitHub**, con il browser; gli ultimi due in **Visual Studio Code**.
 
 1. Creare un profilo su [github.com](https://github.com/signup), se non se ne ha già uno. Il nome utente scelto comparirà negli indirizzi dei propri lavori, quindi conviene sceglierlo breve e leggibile. Registrandosi con la posta dell'Accademia si può poi chiedere il [GitHub Student Developer Pack](https://education.github.com/pack), che dà gratuitamente il piano Pro.
-2. Creare la propria copia del modello: nella pagina del repository del corso, premere **Use this template › Create a new repository**, dare al proprio repository il nome `aa2627-ca-lavori`, lasciarlo **Public** e premere *Create repository*. La copia è indipendente e resta sul proprio profilo.
+2. Creare la propria copia del modello: nella pagina del repository del corso, premere **Use this template › Create a new repository**, dare al proprio repository il nome `aa2627-es`, lasciarlo **Public** e premere *Create repository*. La copia è indipendente e resta sul proprio profilo.
 3. Attivare GitHub Pages, che pubblica i lavori: *Settings › Pages › Source: Deploy from a branch › main › / (root) › Save*.
 4. Aggiungere il docente come collaboratore, per le revisioni dirette: *Settings › Collaborators › Add people*.
 5. Copiare l'indirizzo del **proprio** repository, quello appena creato, che GitHub mostra subito dopo la creazione: pulsante verde **Code**, scheda *HTTPS*, icona della copia.
@@ -42,7 +44,7 @@ Da qui in avanti si lavora **in Visual Studio Code**, nella cartella scaricata s
 
    > Il messaggio non è facoltativo: senza, il pulsante *Commit* non conclude niente, ed è il motivo per cui a volte sembra che non funzioni. Bastano poche parole, come «prima versione di es1» o «colori più scuri e sfondo nero».
 
-Dopo circa un minuto il lavoro è online all'indirizzo `https://NOMEUTENTE.github.io/aa2627-ca-lavori/es1/`, con il proprio nome utente di GitHub al posto di `NOMEUTENTE` e la cartella giusta al posto di `es1`.
+Dopo circa un minuto il lavoro è online all'indirizzo `https://livinbits.github.io/aa2627-es/es1/`, con il proprio nome utente di GitHub al posto di `livinbits` e la cartella giusta al posto di `es1`.
 
 Le cartelle si chiamano `es1`, `es2` e così via: sono gli stessi nomi delle consegne sul sito, e non sono nomi liberi, perché su quelli si costruiscono l'indirizzo del lavoro pubblicato e il collegamento con la consegna.
 
@@ -59,7 +61,7 @@ Non serve nessun account per compilare il modulo. Nelle note conviene scrivere s
 
 **La revisione arriva nella chat di Teams**, non qui. Se dopo la consegna si continua a lavorare sulla stessa esercitazione, si rifà la consegna: vale l'ultima.
 
-> **Se l'indirizzo serve senza passare dal comando.** Si pubblica il lavoro con Commit e Sincronizza, si apre nel browser il proprio elenco dei lavori, `https://NOMEUTENTE.github.io/aa2627-ca-lavori/`, si entra nella cartella dell'esercitazione e si copia l'indirizzo dalla barra. È lo stesso che compone `/consegna`. Non va confuso con quello di Live Server, che comincia per `127.0.0.1` e funziona solo sul proprio computer.
+> **Se l'indirizzo serve senza passare dal comando.** Si pubblica il lavoro con Commit e Sincronizza, si apre nel browser il proprio elenco dei lavori, `https://livinbits.github.io/aa2627-es/`, si entra nella cartella dell'esercitazione e si copia l'indirizzo dalla barra. È lo stesso che compone `/consegna`. Non va confuso con quello di Live Server, che comincia per `127.0.0.1` e funziona solo sul proprio computer.
 
 ## I comandi di OpenCode
 

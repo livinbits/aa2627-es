@@ -12,7 +12,7 @@ body:
     attributes:
       label: Indirizzo del lavoro
       description: L'indirizzo della cartella pubblicata, copiato dalla barra del browser.
-      placeholder: https://nomeutente.github.io/aa2627-ca-lavori/es1/
+      placeholder: https://nomeutente.github.io/aa2627-es/es1/
     validations:
       required: true
   - type: textarea
